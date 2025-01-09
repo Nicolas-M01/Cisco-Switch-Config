@@ -15,3 +15,8 @@ vlan1 configuré par défaut et contient tous les ports dessus.
 
 `(config #) hostname saiph` : renomme le switch en "saiph".  
 `copy running-config startup-config` : Enregistre la config actuelle sur la config startup.  
+`(config)# ip domain-name stars.local` : 
+
+
+
+
