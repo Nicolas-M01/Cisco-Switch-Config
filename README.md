@@ -18,6 +18,6 @@ vlan1 configuré par défaut et contient tous les ports dessus.
 `(config)# ip domain-name stars.local` : crée un nom de domaine.  
 `(config)# interface fastethernet 0/1` : Paramètre l'interface fastethernet 0/1.  
 `(config)# interface range fastethernet 0/1-24` : Paramètre les interfaces de fastethernet 0/1 à 0/24.  
-
+`(config-if-range)# switchport mode access` : Envoi les ports en switchport mode access. Permet de ne pas être accessible de l'extérieur.   
 
 
