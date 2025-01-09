@@ -6,6 +6,7 @@
 `(#) configure` : Niveau de privilège > "enable".   
 => `configure terminal` : Mode configuration du terminal.  
 `exit` : redescendre d'un niveau en privilèges.  
+`end` : sort complètement des niveaux de privilèges.  
 `(#) show running-config` : Montre la Config en cours (ne marche pas en mode configuration).  
 `(#) show interfaces` : Peu pratique comme affichage.  
 `(#) show interfaces | include Fas` : affiche les interfaces commençant par "Fas".  
