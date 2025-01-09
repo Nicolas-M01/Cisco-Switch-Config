@@ -7,4 +7,5 @@
 => `configure terminal` : Mode configuration du terminal.  
 `exit` : redescendre d'un niveau en privilèges.  
 
-`running-config` : 
+`show running-config` : Montre la Config en cours (ne marche pas en mode configuration).  
+
