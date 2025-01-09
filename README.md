@@ -11,6 +11,7 @@
 `(#) show interfaces | include Fas` : affiche les interfaces commençant par "Fas".  
 `(#) show ip interfaces brief` : toutes les interfaces physiques de la machine.  
 
+vlan1 configuré par défaut et contient tous les ports dessus.  
 
-vlan1 configuré par défaut et contient tous les ports dessus. 
+``(config #) hostname saiph`` : renomme le switch en "saiph".  
 
