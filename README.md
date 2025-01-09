@@ -15,8 +15,9 @@ vlan1 configuré par défaut et contient tous les ports dessus.
 
 `(config #) hostname saiph` : renomme le switch en "saiph".  
 `copy running-config startup-config` : Enregistre la config actuelle sur la config startup.  
-`(config)# ip domain-name stars.local` : 
-
+`(config)# ip domain-name stars.local` : crée un nom de domaine.  
+`(config)# interface fastethernet 0/1` : Paramètre l'interface fastethernet 0/1.  
+`(config)# interface range fastethernet 0/1-24` : Paramètre les interfaces de fastethernet 0/1 à 0/24.  
 
 
 
