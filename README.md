@@ -1,7 +1,7 @@
 # Cisco-Switch-Config  
 
 `?` : Liste les commandes dans le mode actuel.  
-`show` :  Lise les consultations possibles du mode actuel.  
+`show` :  Liste les consultations possibles du mode actuel.  
 
 `enable`  
 `configure`  
