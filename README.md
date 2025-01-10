@@ -23,4 +23,7 @@ vlan1 configuré par défaut et contient tous les ports dessus.
 `(#) vlan 399` : crée le vlan 399.  
 `(config-if-range)#switchport access vlan 399`: envoie toutes les interfaces sur le vlan 399.  
 `(config-vlan)#name ADMIN` : nomme la vlan en "ADMIN".  
-`config)#no interface vlan 100` : supprime le vlan 100.  
+`(config)#no interface vlan 100` : Supprime le vlan 100.  
+`(config)#int vlan 99` : Rentrer dans l'interface de vlan 99.  
+
+
