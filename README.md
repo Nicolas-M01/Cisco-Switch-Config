@@ -26,4 +26,5 @@ vlan1 configuré par défaut et contient tous les ports dessus.
 `(config)#no interface vlan 100` : Supprime le vlan 100.  
 `(config)#int vlan 99` : Rentrer dans l'interface de vlan 99.  
 `(config-if)#ip address 192.168.99.220 255.255.255.0` : Dans l'interface, permet de configurer son addresse.   
+`(config-if)#ip default-gateway 192.168.99.254` : Permet d'attribuer une gateway.  
 
