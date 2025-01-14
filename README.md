@@ -31,3 +31,4 @@ vlan1 configuré par défaut et contient tous les ports dessus.
 
 `(config)#interface fastEthernet 0/2` paramètrage de l'interface 0/2.  
 `(config-if)#switchport access vlan 10`  Envoie l'interface dans le vlan10  
+`(config-if)#switchport mode trunk` : Active le trunk  
