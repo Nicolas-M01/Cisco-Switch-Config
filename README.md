@@ -28,3 +28,5 @@ vlan1 configuré par défaut et contient tous les ports dessus.
 `(config-if)#ip address 192.168.99.220 255.255.255.0` : Dans l'interface, permet de configurer son addresse.   
 `(config-if)#ip default-gateway 192.168.99.254` : Permet d'attribuer une gateway.  
 
+`(config)#interface fastEthernet 0/2` paramètrage de l'interface 0/2.  
+`(config-if)#switchport access vlan 10`  Envoie l'interface dans le vlan10  
