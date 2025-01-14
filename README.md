@@ -7,10 +7,10 @@
 => `configure terminal` : Mode configuration du terminal.  
 `exit` : redescendre d'un niveau en privilèges.  
 `end` : sort complètement des niveaux de privilèges.  
-`(#) show running-config` : Montre la Config en cours (ne marche pas en mode configuration).  
+**`(#) show running-config` : Montre la Config en cours (ne marche pas en mode configuration).**  
 `(#) show interfaces` : Peu pratique comme affichage.  
 `(#) show interfaces | include Fas` : affiche les interfaces commençant par "Fas".  
-`(#) show ip interfaces brief` : toutes les interfaces physiques de la machine.  
+**`(#) show ip interfaces brief` : toutes les interfaces physiques de la machine.**  
 
 vlan1 configuré par défaut et contient tous les ports dessus.  
 
