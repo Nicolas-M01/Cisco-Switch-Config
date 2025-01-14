@@ -20,6 +20,7 @@ vlan1 configuré par défaut et contient tous les ports dessus.
 `(config)# interface fastethernet 0/1` : Paramètre l'interface fastethernet 0/1.  
 `(config)# interface range fastethernet 0/1-24` : Paramètre les interfaces de fastethernet 0/1 à 0/24.  
 `(config-if-range)# switchport mode access` : Envoi les ports en switchport mode access. Permet de ne pas être accessible de l'extérieur.  
+`(config-if-range)#no switchport mode access` : Désactive le switchport mode access. Permet donc le mode trunk.  
 `(config)# vlan 399` : crée le vlan 399.  
 `(config-if-range)#switchport access vlan 399`: envoie toutes les interfaces sur le vlan 399.  
 `(config-vlan)#name ADMIN` : nomme la vlan en "ADMIN".  
